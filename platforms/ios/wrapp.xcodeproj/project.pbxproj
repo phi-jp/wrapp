@@ -57,6 +57,8 @@
 		2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0514A379EB644EDA31EFE33 /* UIKit.framework */; };
 		AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5606D8ACA47440369E9254D2 /* SocialMessage.m */; };
 		1D8E602C339848739B16B089 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D6A2A3210345FB87EB8D4E /* Social.framework */; };
+		21D47A97563F4C21B1B45228 /* GameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28611F934B61434C96BFF9F7 /* GameCenter.m */; };
+		BD9B02E938B542CBA6C87CD9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE73428BE4140FDA18D7A5F /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +148,9 @@
 		5606D8ACA47440369E9254D2 /* SocialMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialMessage.m"; path = "uk.co.ilee.socialmessage/SocialMessage.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		E7F1153D04A7411097D37586 /* SocialMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialMessage.h"; path = "uk.co.ilee.socialmessage/SocialMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		34D6A2A3210345FB87EB8D4E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		28611F934B61434C96BFF9F7 /* GameCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GameCenter.m"; path = "uk.co.ilee.gamecenter/GameCenter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C38319E125994219BF7A39C2 /* GameCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GameCenter.h"; path = "uk.co.ilee.gamecenter/GameCenter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BBE73428BE4140FDA18D7A5F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GameKit.framework"; path = "System/Library/Frameworks/GameKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +176,7 @@
 				9A11FC7D426C4CB996F79FE5 /* SystemConfiguration.framework in Frameworks */,
 				2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */,
 				1D8E602C339848739B16B089 /* Social.framework in Frameworks */,
+				BD9B02E938B542CBA6C87CD9 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +263,7 @@
 				D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */,
 				C0514A379EB644EDA31EFE33 /* UIKit.framework */,
 				34D6A2A3210345FB87EB8D4E /* Social.framework */,
+				BBE73428BE4140FDA18D7A5F /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,6 +289,8 @@
 				E341FCAB28744DEB949C3753 /* AdMobMediation.h */,
 				5606D8ACA47440369E9254D2 /* SocialMessage.m */,
 				E7F1153D04A7411097D37586 /* SocialMessage.h */,
+				28611F934B61434C96BFF9F7 /* GameCenter.m */,
+				C38319E125994219BF7A39C2 /* GameCenter.h */,
 			);
 			name = Plugins;
 			path = "wrapp/Plugins";
@@ -470,6 +479,7 @@
 				89DBDC806A504E6DB3453C51 /* CDVAdMobPlugin.m in Sources */,
 				F5AD920888564CDDB50DEE1F /* AdMobMediation.m in Sources */,
 				AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */,
+				21D47A97563F4C21B1B45228 /* GameCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

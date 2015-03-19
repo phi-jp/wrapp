@@ -55,6 +55,9 @@
         },
         "uk.co.ilee.socialmessage": {
             "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "uk.co.ilee.gamecenter": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
         }
     },
     "dependent_plugins": {

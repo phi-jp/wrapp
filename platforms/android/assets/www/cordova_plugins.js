@@ -13,6 +13,13 @@ module.exports = [
         "clobbers": [
             "socialmessage"
         ]
+    },
+    {
+        "file": "plugins/uk.co.ilee.gamecenter/www/gamecenter.js",
+        "id": "uk.co.ilee.gamecenter.GameCenter",
+        "clobbers": [
+            "gamecenter"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -20,6 +27,7 @@ module.exports.metadata =
 {
     "com.google.cordova.admob": "2.7.4",
     "uk.co.ilee.socialmessage": "0.2.6",
+    "uk.co.ilee.gamecenter": "0.3.1",
     "com.rjfun.cordova.extension": "1.0.6",
     "com.google.playservices": "19.0.0"
 }

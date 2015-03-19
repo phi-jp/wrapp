@@ -21,6 +21,9 @@
     <feature name="SocialMessage">
         <param name="ios-package" value="SocialMessage" />
     </feature>
+    <feature name="GameCenter">
+        <param name="ios-package" value="GameCenter" />
+    </feature>
     <name>wrapp</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

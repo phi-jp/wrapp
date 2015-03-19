@@ -84,6 +84,12 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "GameKit.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -97,6 +103,10 @@
                         {
                             "xml": "<feature name=\"SocialMessage\"><param name=\"ios-package\" value=\"SocialMessage\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"GameCenter\"><param name=\"ios-package\" value=\"GameCenter\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -108,6 +118,9 @@
             "PACKAGE_NAME": "jp.phi.wrapp"
         },
         "uk.co.ilee.socialmessage": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "uk.co.ilee.gamecenter": {
             "PACKAGE_NAME": "jp.phi.wrapp"
         }
     },
