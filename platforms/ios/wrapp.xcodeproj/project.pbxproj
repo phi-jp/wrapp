@@ -55,6 +55,8 @@
 		F0C09C601218442B8EEBEFA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30441955F1724C0AB321FC1A /* StoreKit.framework */; };
 		9A11FC7D426C4CB996F79FE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */; };
 		2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0514A379EB644EDA31EFE33 /* UIKit.framework */; };
+		AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5606D8ACA47440369E9254D2 /* SocialMessage.m */; };
+		1D8E602C339848739B16B089 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D6A2A3210345FB87EB8D4E /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +143,9 @@
 		30441955F1724C0AB321FC1A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		C0514A379EB644EDA31EFE33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		5606D8ACA47440369E9254D2 /* SocialMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialMessage.m"; path = "uk.co.ilee.socialmessage/SocialMessage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E7F1153D04A7411097D37586 /* SocialMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialMessage.h"; path = "uk.co.ilee.socialmessage/SocialMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		34D6A2A3210345FB87EB8D4E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +170,7 @@
 				F0C09C601218442B8EEBEFA4 /* StoreKit.framework in Frameworks */,
 				9A11FC7D426C4CB996F79FE5 /* SystemConfiguration.framework in Frameworks */,
 				2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */,
+				1D8E602C339848739B16B089 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +256,7 @@
 				30441955F1724C0AB321FC1A /* StoreKit.framework */,
 				D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */,
 				C0514A379EB644EDA31EFE33 /* UIKit.framework */,
+				34D6A2A3210345FB87EB8D4E /* Social.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -273,6 +280,8 @@
 				EAA9F37815D5460E8123DCAA /* AdMobMediation.m */,
 				4CB86C0711ED41E8917A0E8F /* CDVAdMobPlugin.h */,
 				E341FCAB28744DEB949C3753 /* AdMobMediation.h */,
+				5606D8ACA47440369E9254D2 /* SocialMessage.m */,
+				E7F1153D04A7411097D37586 /* SocialMessage.h */,
 			);
 			name = Plugins;
 			path = "wrapp/Plugins";
@@ -460,6 +469,7 @@
 				BC954F5794804FA9B5DED257 /* CDVPluginExt.m in Sources */,
 				89DBDC806A504E6DB3453C51 /* CDVAdMobPlugin.m in Sources */,
 				F5AD920888564CDDB50DEE1F /* AdMobMediation.m in Sources */,
+				AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

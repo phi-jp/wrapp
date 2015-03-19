@@ -78,6 +78,12 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "Social.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -87,6 +93,10 @@
                         {
                             "xml": "<feature name=\"AdMob\"><param name=\"ios-package\" value=\"CDVAdMobPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialMessage\"><param name=\"ios-package\" value=\"SocialMessage\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -95,6 +105,9 @@
     },
     "installed_plugins": {
         "com.google.cordova.admob": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "uk.co.ilee.socialmessage": {
             "PACKAGE_NAME": "jp.phi.wrapp"
         }
     },

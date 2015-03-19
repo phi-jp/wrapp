@@ -18,5 +18,12 @@
             "subdir": ".",
             "ref": "r19"
         }
+    },
+    "uk.co.ilee.socialmessage": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leecrossley/cordova-plugin-social-message.git",
+            "subdir": "."
+        }
     }
 }
