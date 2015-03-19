@@ -1,0 +1,77 @@
+2015-03-19 21:46:55.571 wrapp[1289:10046] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/5B279734-56D3-440E-A45D-CA8886529B9F/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:46:56.074 wrapp[1289:10046] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-19 21:46:56.075 wrapp[1289:10046] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:46:56.099 wrapp[1289:10046] Unlimited access to network resources
+2015-03-19 21:46:56.116 wrapp[1289:10046] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-19 21:46:56.936 wrapp[1289:10046] [CDVTimer][admob] 0.897050ms
+2015-03-19 21:46:56.936 wrapp[1289:10046] [CDVTimer][TotalPluginStartup] 3.071010ms
+2015-03-19 21:46:59.726 wrapp[1289:10046] Resetting plugins due to page load.
+2015-03-19 21:47:00.069 wrapp[1289:10046] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/8F4CCF03-1425-4F89-B24C-1C6CD9D58189/wrapp.app/www/flick-arrow.html
+2015-03-19 21:49:00.030 wrapp[1375:11708] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/3F6FE0AB-A865-4CD8-93A0-DE9A7DF5CEC0/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:49:02.243 wrapp[1375:11708] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-19 21:49:02.244 wrapp[1375:11708] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:49:02.246 wrapp[1375:11708] Unlimited access to network resources
+2015-03-19 21:49:02.249 wrapp[1375:11708] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-19 21:49:02.689 wrapp[1375:11708] [CDVTimer][admob] 0.174046ms
+2015-03-19 21:49:02.689 wrapp[1375:11708] [CDVTimer][TotalPluginStartup] 0.414968ms
+2015-03-19 21:49:02.932 wrapp[1375:11708] Resetting plugins due to page load.
+2015-03-19 21:49:03.008 wrapp[1375:11708] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/A0F79B68-F4A4-4A1A-B507-5C99C2EBF58D/wrapp.app/www/flick-arrow.html
+2015-03-19 21:49:40.366 wrapp[1427:12280] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/D3F1A7A6-9BA5-4D0A-B7D1-EC6594042114/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:49:40.736 wrapp[1427:12280] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-19 21:49:40.737 wrapp[1427:12280] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:49:40.738 wrapp[1427:12280] Unlimited access to network resources
+2015-03-19 21:49:40.742 wrapp[1427:12280] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-19 21:49:41.156 wrapp[1427:12280] [CDVTimer][admob] 0.194013ms
+2015-03-19 21:49:41.157 wrapp[1427:12280] [CDVTimer][TotalPluginStartup] 0.426054ms
+2015-03-19 21:49:41.289 wrapp[1427:12280] Resetting plugins due to page load.
+2015-03-19 21:49:43.622 wrapp[1427:12280] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/7EB32CD3-2F17-4837-8E42-9E46C2FF4BAE/wrapp.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-19 21:49:45.682 wrapp[1427:12280] createBanner
+2015-03-19 21:49:46.914 wrapp[1427:12280] createBanner
+2015-03-19 21:49:47.773 wrapp[1427:12280] AdMob, onBannerReceive, 
+2015-03-19 21:49:47.773 wrapp[1427:12280] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-19 21:49:47.774 wrapp[1427:12280] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-03-19 21:49:47.776 wrapp[1427:12280] window, resize, 
+2015-03-19 21:49:49.489 wrapp[1427:12280] prepareInterstitial
+2015-03-19 21:49:50.039 wrapp[1427:12280] AdMob, onInterstitialReceive, 
+2015-03-19 21:49:50.039 wrapp[1427:12280] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdLoaded'}
+2015-03-19 21:49:50.042 wrapp[1427:12280] AdMob, onInterstitialPresent, 
+2015-03-19 21:49:50.042 wrapp[1427:12280] AdMob, onAdPresent, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdPresent'}
+2015-03-19 21:49:51.916 wrapp[1427:12280] AdMob, onInterstitialDismiss, 
+2015-03-19 21:49:51.916 wrapp[1427:12280] AdMob, onAdDismiss, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdDismiss'}
+2015-03-19 21:49:53.793 wrapp[1427:12280] prepareInterstitial
+2015-03-19 21:49:54.227 wrapp[1427:12280] AdMob, onInterstitialReceive, 
+2015-03-19 21:49:54.227 wrapp[1427:12280] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdLoaded'}
+2015-03-19 21:49:54.230 wrapp[1427:12280] AdMob, onInterstitialPresent, 
+2015-03-19 21:49:54.230 wrapp[1427:12280] AdMob, onAdPresent, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdPresent'}
+2015-03-19 21:49:55.959 wrapp[1427:12280] AdMob, onInterstitialDismiss, 
+2015-03-19 21:49:55.959 wrapp[1427:12280] AdMob, onAdDismiss, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdDismiss'}
+2015-03-19 21:49:56.547 wrapp[1427:12280] prepareInterstitial
+2015-03-19 21:49:56.959 wrapp[1427:12280] AdMob, onInterstitialReceive, 
+2015-03-19 21:49:56.959 wrapp[1427:12280] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdLoaded'}
+2015-03-19 21:49:56.962 wrapp[1427:12280] AdMob, onInterstitialPresent, 
+2015-03-19 21:49:56.962 wrapp[1427:12280] AdMob, onAdPresent, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdPresent'}
+2015-03-19 21:49:58.672 wrapp[1427:12280] AdMob, onInterstitialDismiss, 
+2015-03-19 21:49:58.672 wrapp[1427:12280] AdMob, onAdDismiss, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdDismiss'}
