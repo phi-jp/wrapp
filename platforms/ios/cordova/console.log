@@ -343,3 +343,5 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-03-20 22:23:46.574 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
 2015-03-20 22:24:46.750 FlickArrow[4449:92963] AdMob, onBannerReceive, 
 2015-03-20 22:24:46.751 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:25:46.857 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:25:46.857 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
