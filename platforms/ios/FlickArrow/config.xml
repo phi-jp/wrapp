@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="jp.phi.wrapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="jp.phi.FlickArrow" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -24,12 +24,12 @@
     <feature name="GameCenter">
         <param name="ios-package" value="GameCenter" />
     </feature>
-    <name>wrapp</name>
+    <name>FlickArrow</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A simple game.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="phi1618jp@gmail.com" href="http://tmlife.net">
+        tmlib.js project
     </author>
     <content src="flick-arrow.html" />
     <access origin="*" />

@@ -8,6 +8,10 @@
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D8E602C339848739B16B089 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D6A2A3210345FB87EB8D4E /* Social.framework */; };
+		21A0CF9C0757439C82C44C3D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0069A17C0B94EA58FE7E54C /* EventKit.framework */; };
+		21D47A97563F4C21B1B45228 /* GameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28611F934B61434C96BFF9F7 /* GameCenter.m */; };
+		2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0514A379EB644EDA31EFE33 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
@@ -27,7 +31,10 @@
 		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
 		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		3E9922F778DB4AD6AD1B3EFC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0B1DB30AE4AA587869F80 /* EventKitUI.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		656DBD5E112141E391CF1D0E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF16D6A53CF4B6983D0FB80 /* AudioToolbox.framework */; };
+		7226F1A7EEB240AB84BA5DE9 /* libCordovaGenericAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF8FD00859345C090DA0B5F /* libCordovaGenericAd.a */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -38,27 +45,20 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		BC954F5794804FA9B5DED257 /* CDVPluginExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A21C2B93584CA690DF8F76 /* CDVPluginExt.m */; };
-		7226F1A7EEB240AB84BA5DE9 /* libCordovaGenericAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF8FD00859345C090DA0B5F /* libCordovaGenericAd.a */; };
 		89DBDC806A504E6DB3453C51 /* CDVAdMobPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BB6579E57D46C0BFD849DF /* CDVAdMobPlugin.m */; };
-		F5AD920888564CDDB50DEE1F /* AdMobMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA9F37815D5460E8123DCAA /* AdMobMediation.m */; };
-		D1F33369F15C4DA59BED188A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D01F9FF16FB49329FF07E2C /* GoogleMobileAds.framework */; };
-		B8382CC0057142A38CABA1D7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC137466F6E4D45B18BC71D /* AdSupport.framework */; };
-		656DBD5E112141E391CF1D0E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF16D6A53CF4B6983D0FB80 /* AudioToolbox.framework */; };
-		E27FDA47AD6746E4B19307AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A1F2C77F149A6BE0ED1F8 /* AVFoundation.framework */; };
-		9E16CDE26C7C476E9399AE89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AFF4BDE4FF4CB8AB61895A /* CoreTelephony.framework */; };
-		21A0CF9C0757439C82C44C3D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0069A17C0B94EA58FE7E54C /* EventKit.framework */; };
-		3E9922F778DB4AD6AD1B3EFC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0B1DB30AE4AA587869F80 /* EventKitUI.framework */; };
 		8D7B0AB796EE456098A72372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA58CD180E44CE083E80777 /* Foundation.framework */; };
-		B162347189FA49F08C9D12D5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D4BB0D595E43758A921439 /* MessageUI.framework */; };
-		F0C09C601218442B8EEBEFA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30441955F1724C0AB321FC1A /* StoreKit.framework */; };
 		9A11FC7D426C4CB996F79FE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */; };
-		2648353C29714023BDE47F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0514A379EB644EDA31EFE33 /* UIKit.framework */; };
+		9E16CDE26C7C476E9399AE89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AFF4BDE4FF4CB8AB61895A /* CoreTelephony.framework */; };
 		AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5606D8ACA47440369E9254D2 /* SocialMessage.m */; };
-		1D8E602C339848739B16B089 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D6A2A3210345FB87EB8D4E /* Social.framework */; };
-		21D47A97563F4C21B1B45228 /* GameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28611F934B61434C96BFF9F7 /* GameCenter.m */; };
+		B162347189FA49F08C9D12D5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D4BB0D595E43758A921439 /* MessageUI.framework */; };
+		B8382CC0057142A38CABA1D7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC137466F6E4D45B18BC71D /* AdSupport.framework */; };
+		BC954F5794804FA9B5DED257 /* CDVPluginExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A21C2B93584CA690DF8F76 /* CDVPluginExt.m */; };
 		BD9B02E938B542CBA6C87CD9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE73428BE4140FDA18D7A5F /* GameKit.framework */; };
+		D1F33369F15C4DA59BED188A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D01F9FF16FB49329FF07E2C /* GoogleMobileAds.framework */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		E27FDA47AD6746E4B19307AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A1F2C77F149A6BE0ED1F8 /* AVFoundation.framework */; };
+		F0C09C601218442B8EEBEFA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30441955F1724C0AB321FC1A /* StoreKit.framework */; };
+		F5AD920888564CDDB50DEE1F /* AdMobMediation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA9F37815D5460E8123DCAA /* AdMobMediation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,19 +79,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D01F9FF16FB49329FF07E2C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = FlickArrower.framework; name = GoogleMobileAds.framework; path = FlickArrow/Plugins/com.google.cordova.admob/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		105942FD1FDB4460A20AC0C6 /* GenericAdPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericAdPlugin.h; path = com.rjfun.cordova.extension/GenericAdPlugin.h; sourceTree = "<group>"; };
+		135634C8EABE4C25A192145E /* CDVPluginExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVPluginExt.h; path = com.rjfun.cordova.extension/CDVPluginExt.h; sourceTree = "<group>"; };
+		19D4BB0D595E43758A921439 /* MessageUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* wrapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wrapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
-		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* FlickArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28611F934B61434C96BFF9F7 /* GameCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCenter.m; path = uk.co.ilee.gamecenter/GameCenter.m; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = FlickArrower.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		2DF8FD00859345C090DA0B5F /* libCordovaGenericAd.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libCordovaGenericAd.a; path = FlickArrow/Plugins/com.rjfun.cordova.extension/libCordovaGenericAd.a; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "FlickArrower.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		30441955F1724C0AB321FC1A /* StoreKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = FlickArrower.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
@@ -106,8 +111,14 @@
 		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
 		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* wrapp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wrapp-Prefix.pch"; sourceTree = "<group>"; };
-		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* FlickArrow-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlickArrow-Prefix.pch"; sourceTree = "<group>"; };
+		34D6A2A3210345FB87EB8D4E /* Social.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		470A1F2C77F149A6BE0ED1F8 /* AVFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4BB0B1DB30AE4AA587869F80 /* EventKitUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		4CB86C0711ED41E8917A0E8F /* CDVAdMobPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAdMobPlugin.h; path = com.google.cordova.admob/CDVAdMobPlugin.h; sourceTree = "<group>"; };
+		5606D8ACA47440369E9254D2 /* SocialMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialMessage.m; path = uk.co.ilee.socialmessage/SocialMessage.m; sourceTree = "<group>"; };
+		58BB6579E57D46C0BFD849DF /* CDVAdMobPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAdMobPlugin.m; path = com.google.cordova.admob/CDVAdMobPlugin.m; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = FlickArrower.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -118,39 +129,26 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* wrapp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "wrapp-Info.plist"; path = "../wrapp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FlickArrow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FlickArrow-Info.plist"; path = "../FlickArrow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		978F07700DEC4357BF76710A /* PluginAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginAdapterDelegate.h; path = com.rjfun.cordova.extension/PluginAdapterDelegate.h; sourceTree = "<group>"; };
+		98AFF4BDE4FF4CB8AB61895A /* CoreTelephony.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9BC137466F6E4D45B18BC71D /* AdSupport.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B0069A17C0B94EA58FE7E54C /* EventKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		BBE73428BE4140FDA18D7A5F /* GameKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		BDA58CD180E44CE083E80777 /* Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0514A379EB644EDA31EFE33 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C38319E125994219BF7A39C2 /* GameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCenter.h; path = uk.co.ilee.gamecenter/GameCenter.h; sourceTree = "<group>"; };
+		C8A21C2B93584CA690DF8F76 /* CDVPluginExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVPluginExt.m; path = com.rjfun.cordova.extension/CDVPluginExt.m; sourceTree = "<group>"; };
+		CEF16D6A53CF4B6983D0FB80 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = FlickArrower.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E341FCAB28744DEB949C3753 /* AdMobMediation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobMediation.h; path = com.google.cordova.admob/AdMobMediation.h; sourceTree = "<group>"; };
+		E7F1153D04A7411097D37586 /* SocialMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialMessage.h; path = uk.co.ilee.socialmessage/SocialMessage.h; sourceTree = "<group>"; };
+		EAA9F37815D5460E8123DCAA /* AdMobMediation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdMobMediation.m; path = com.google.cordova.admob/AdMobMediation.m; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "wrapp/config.xml"; sourceTree = "<group>"; };
-		C8A21C2B93584CA690DF8F76 /* CDVPluginExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVPluginExt.m"; path = "com.rjfun.cordova.extension/CDVPluginExt.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		2DF8FD00859345C090DA0B5F /* libCordovaGenericAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCordovaGenericAd.a"; path = "wrapp/Plugins/com.rjfun.cordova.extension/libCordovaGenericAd.a"; sourceTree = "<group>"; fileEncoding = 4; };
-		978F07700DEC4357BF76710A /* PluginAdapterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PluginAdapterDelegate.h"; path = "com.rjfun.cordova.extension/PluginAdapterDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		135634C8EABE4C25A192145E /* CDVPluginExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVPluginExt.h"; path = "com.rjfun.cordova.extension/CDVPluginExt.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		105942FD1FDB4460A20AC0C6 /* GenericAdPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GenericAdPlugin.h"; path = "com.rjfun.cordova.extension/GenericAdPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		58BB6579E57D46C0BFD849DF /* CDVAdMobPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAdMobPlugin.m"; path = "com.google.cordova.admob/CDVAdMobPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		EAA9F37815D5460E8123DCAA /* AdMobMediation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AdMobMediation.m"; path = "com.google.cordova.admob/AdMobMediation.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		4CB86C0711ED41E8917A0E8F /* CDVAdMobPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAdMobPlugin.h"; path = "com.google.cordova.admob/CDVAdMobPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E341FCAB28744DEB949C3753 /* AdMobMediation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AdMobMediation.h"; path = "com.google.cordova.admob/AdMobMediation.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		0D01F9FF16FB49329FF07E2C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GoogleMobileAds.framework"; path = "wrapp/Plugins/com.google.cordova.admob/GoogleMobileAds.framework"; sourceTree = "<group>"; };
-		9BC137466F6E4D45B18BC71D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		CEF16D6A53CF4B6983D0FB80 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		470A1F2C77F149A6BE0ED1F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		98AFF4BDE4FF4CB8AB61895A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		B0069A17C0B94EA58FE7E54C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		4BB0B1DB30AE4AA587869F80 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKitUI.framework"; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		BDA58CD180E44CE083E80777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		19D4BB0D595E43758A921439 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		30441955F1724C0AB321FC1A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		D891768C792D44A0BCD8B3F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		C0514A379EB644EDA31EFE33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		5606D8ACA47440369E9254D2 /* SocialMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialMessage.m"; path = "uk.co.ilee.socialmessage/SocialMessage.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		E7F1153D04A7411097D37586 /* SocialMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialMessage.h"; path = "uk.co.ilee.socialmessage/SocialMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		34D6A2A3210345FB87EB8D4E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		28611F934B61434C96BFF9F7 /* GameCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GameCenter.m"; path = "uk.co.ilee.gamecenter/GameCenter.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		C38319E125994219BF7A39C2 /* GameCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GameCenter.h"; path = "uk.co.ilee.gamecenter/GameCenter.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		BBE73428BE4140FDA18D7A5F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GameKit.framework"; path = "System/Library/Frameworks/GameKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = FlickArrow/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,13 +191,13 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "wrapp/Classes";
+			path = FlickArrow/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* wrapp.app */,
+				1D6058910D05DD3D006BFB54 /* FlickArrow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,11 +223,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* wrapp-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* FlickArrow-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "wrapp";
+			path = FlickArrow;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -237,10 +235,10 @@
 			children = (
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
-				8D1107310486CEB800E47090 /* wrapp-Info.plist */,
+				8D1107310486CEB800E47090 /* FlickArrow-Info.plist */,
 			);
 			name = Resources;
-			path = "wrapp/Resources";
+			path = FlickArrow/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -293,7 +291,7 @@
 				C38319E125994219BF7A39C2 /* GameCenter.h */,
 			);
 			name = Plugins;
-			path = "wrapp/Plugins";
+			path = FlickArrow/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -347,9 +345,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* wrapp */ = {
+		1D6058900D05DD3D006BFB54 /* FlickArrow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wrapp" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlickArrow" */;
 			buildPhases = (
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -361,9 +359,9 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "wrapp";
-			productName = "wrapp";
-			productReference = 1D6058910D05DD3D006BFB54 /* wrapp.app */;
+			name = FlickArrow;
+			productName = FlickArrow;
+			productReference = 1D6058910D05DD3D006BFB54 /* FlickArrow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +372,7 @@
 			attributes = {
 				LastUpgradeCheck = 510;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlickArrow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -398,7 +396,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* wrapp */,
+				1D6058900D05DD3D006BFB54 /* FlickArrow */,
 			);
 		};
 /* End PBXProject section */
@@ -500,14 +498,22 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"FlickArrow/Plugins/com.google.cordova.admob\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "wrapp/wrapp-Prefix.pch";
+				GCC_PREFIX_HEADER = "FlickArrow/FlickArrow-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "wrapp/wrapp-Info.plist";
+				INFOPLIST_FILE = "FlickArrow/FlickArrow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlickArrow/Plugins/com.rjfun.cordova.extension\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -520,16 +526,8 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "wrapp";
+				PRODUCT_NAME = FlickArrow;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/wrapp/Plugins/com.rjfun.cordova.extension\"",
-				);
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"wrapp/Plugins/com.google.cordova.admob\"",
-				);
 			};
 			name = Debug;
 		};
@@ -539,12 +537,20 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"FlickArrow/Plugins/com.google.cordova.admob\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "wrapp/wrapp-Prefix.pch";
+				GCC_PREFIX_HEADER = "FlickArrow/FlickArrow-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "wrapp/wrapp-Info.plist";
+				INFOPLIST_FILE = "FlickArrow/FlickArrow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlickArrow/Plugins/com.rjfun.cordova.extension\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -557,16 +563,8 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "wrapp";
+				PRODUCT_NAME = FlickArrow;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/wrapp/Plugins/com.rjfun.cordova.extension\"",
-				);
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"wrapp/Plugins/com.google.cordova.admob\"",
-				);
 			};
 			name = Release;
 		};
@@ -660,7 +658,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wrapp" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlickArrow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -669,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlickArrow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

@@ -75,3 +75,271 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-03-19 21:49:56.962 wrapp[1427:12280] AdMob, onAdPresent, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdPresent'}
 2015-03-19 21:49:58.672 wrapp[1427:12280] AdMob, onInterstitialDismiss, 
 2015-03-19 21:49:58.672 wrapp[1427:12280] AdMob, onAdDismiss, {'adNetwork':'AdMob','adType':'interstitial','adEvent':'onAdDismiss'}
+2015-03-19 22:04:40.078 FlickArrow[3449:23075] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/0025C571-9D06-4CE4-ADB8-A311323EC4AD/Library/Cookies/Cookies.binarycookies
+2015-03-19 22:04:42.347 FlickArrow[3449:23075] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-19 22:04:42.348 FlickArrow[3449:23075] Multi-tasking -> Device: YES, App: YES
+2015-03-19 22:04:42.351 FlickArrow[3449:23075] Unlimited access to network resources
+2015-03-19 22:04:42.355 FlickArrow[3449:23075] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-19 22:04:42.806 FlickArrow[3449:23075] [CDVTimer][admob] 1.385987ms
+2015-03-19 22:04:42.807 FlickArrow[3449:23075] [CDVTimer][TotalPluginStartup] 1.600027ms
+2015-03-19 22:04:44.232 FlickArrow[3449:23075] Resetting plugins due to page load.
+2015-03-19 22:04:46.086 FlickArrow[3449:23075] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/57DAD068-9416-49E0-A59A-668E891AF068/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-19 22:04:48.134 FlickArrow[3449:23075] createBanner
+2015-03-19 22:04:49.294 FlickArrow[3449:23075] createBanner
+2015-03-19 22:04:50.064 FlickArrow[3449:23075] AdMob, onBannerReceive, 
+2015-03-19 22:04:50.064 FlickArrow[3449:23075] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-19 22:04:50.065 FlickArrow[3449:23075] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-03-19 22:04:50.065 FlickArrow[3449:23075] window, resize, 
+2015-03-19 22:05:49.853 FlickArrow[3449:23075] AdMob, onBannerReceive, 
+2015-03-19 22:05:49.854 FlickArrow[3449:23075] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:12:48.124 FlickArrow[4020:79062] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/11FAC0AB-DCAF-44D5-A8D5-2E1E00B1FC50/Library/Cookies/Cookies.binarycookies
+2015-03-20 21:12:48.499 FlickArrow[4020:79062] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 21:12:48.500 FlickArrow[4020:79062] Multi-tasking -> Device: YES, App: YES
+2015-03-20 21:12:48.503 FlickArrow[4020:79062] Unlimited access to network resources
+2015-03-20 21:12:48.507 FlickArrow[4020:79062] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 21:12:48.893 FlickArrow[4020:79062] [CDVTimer][admob] 0.251949ms
+2015-03-20 21:12:48.894 FlickArrow[4020:79062] [CDVTimer][TotalPluginStartup] 0.550985ms
+2015-03-20 21:12:49.042 FlickArrow[4020:79062] Resetting plugins due to page load.
+2015-03-20 21:12:49.752 FlickArrow[4020:79062] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/75C6947D-71C3-4E4C-9B9E-FB2BC31E3F16/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:12:51.912 FlickArrow[4020:79062] createBanner
+2015-03-20 21:12:52.613 FlickArrow[4020:79062] createBanner
+2015-03-20 21:12:53.381 FlickArrow[4020:79062] AdMob, onBannerReceive, 
+2015-03-20 21:12:53.382 FlickArrow[4020:79062] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:12:53.382 FlickArrow[4020:79062] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-03-20 21:12:53.383 FlickArrow[4020:79062] window, resize, 
+2015-03-20 21:13:56.208 FlickArrow[4020:79062] THREAD WARNING: ['GameCenter'] took '152.631836' ms. Plugin should use a background thread.
+2015-03-20 21:14:26.954 FlickArrow[4020:79062] AdMob, onBannerReceive, 
+2015-03-20 21:14:26.955 FlickArrow[4020:79062] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:15:26.969 FlickArrow[4020:79062] AdMob, onBannerReceive, 
+2015-03-20 21:15:26.969 FlickArrow[4020:79062] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:16:27.126 FlickArrow[4020:79062] AdMob, onBannerReceive, 
+2015-03-20 21:16:27.127 FlickArrow[4020:79062] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:17:27.225 FlickArrow[4020:79062] AdMob, onBannerReceive, 
+2015-03-20 21:17:27.226 FlickArrow[4020:79062] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:20:45.389 FlickArrow[4157:83336] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/86676B55-DB30-4BBA-AAF9-09EF2224C20A/Library/Cookies/Cookies.binarycookies
+2015-03-20 21:20:48.849 FlickArrow[4157:83336] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 21:20:48.849 FlickArrow[4157:83336] Multi-tasking -> Device: YES, App: YES
+2015-03-20 21:20:48.852 FlickArrow[4157:83336] Unlimited access to network resources
+2015-03-20 21:20:48.856 FlickArrow[4157:83336] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 21:20:49.274 FlickArrow[4157:83336] [CDVTimer][admob] 0.294983ms
+2015-03-20 21:20:49.274 FlickArrow[4157:83336] [CDVTimer][TotalPluginStartup] 0.645995ms
+2015-03-20 21:20:49.489 FlickArrow[4157:83336] Resetting plugins due to page load.
+2015-03-20 21:20:50.300 FlickArrow[4157:83336] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/53F0400A-82D3-42A0-B47D-DE2B05F1CFA6/FlickArrow.app/www/flick-arrow.html
+2015-03-20 21:20:50.460 FlickArrow[4157:83336] THREAD WARNING: ['GameCenter'] took '67.083008' ms. Plugin should use a background thread.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:20:52.590 FlickArrow[4157:83336] createBanner
+2015-03-20 21:20:52.591 FlickArrow[4157:83336] createBanner
+2015-03-20 21:20:55.412 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:20:55.413 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:20:55.413 FlickArrow[4157:83336] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-03-20 21:20:55.414 FlickArrow[4157:83336] window, resize, 
+2015-03-20 21:23:12.423 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:23:12.423 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:24:12.515 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:24:12.516 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:25:12.604 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:25:12.605 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:26:46.954 FlickArrow[4157:83582] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-03-20 21:26:48.645 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:26:48.645 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:27:00.650 FlickArrow[4157:83336] Resetting plugins due to page load.
+2015-03-20 21:27:01.509 FlickArrow[4157:83336] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/53F0400A-82D3-42A0-B47D-DE2B05F1CFA6/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:27:03.601 FlickArrow[4157:83336] createBanner
+2015-03-20 21:27:03.601 FlickArrow[4157:83336] createBanner
+2015-03-20 21:27:03.785 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:27:03.786 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:27:06.738 FlickArrow[4157:83336] THREAD WARNING: ['GameCenter'] took '74.589111' ms. Plugin should use a background thread.
+2015-03-20 21:28:03.845 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:28:03.846 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:29:03.953 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:29:03.954 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:30:04.085 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:30:04.085 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:31:04.210 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:31:04.211 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:31:07.656 FlickArrow[4157:83336] Resetting plugins due to page load.
+2015-03-20 21:31:08.272 FlickArrow[4157:83336] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/53F0400A-82D3-42A0-B47D-DE2B05F1CFA6/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:31:10.365 FlickArrow[4157:83336] createBanner
+2015-03-20 21:31:10.366 FlickArrow[4157:83336] createBanner
+2015-03-20 21:31:10.540 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:31:10.540 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:31:11.640 FlickArrow[4157:83336] Resetting plugins due to page load.
+2015-03-20 21:31:12.133 FlickArrow[4157:83336] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/53F0400A-82D3-42A0-B47D-DE2B05F1CFA6/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:31:14.227 FlickArrow[4157:83336] createBanner
+2015-03-20 21:31:14.227 FlickArrow[4157:83336] createBanner
+2015-03-20 21:31:14.365 FlickArrow[4157:83336] AdMob, onBannerReceive, 
+2015-03-20 21:31:14.365 FlickArrow[4157:83336] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:45:00.064 FlickArrow[4449:92963] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Data/Application/36DF4BCE-2371-43FB-8D8A-2DAD4F6D024C/Library/Cookies/Cookies.binarycookies
+2015-03-20 21:45:00.255 FlickArrow[4449:92963] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 21:45:00.256 FlickArrow[4449:92963] Multi-tasking -> Device: YES, App: YES
+2015-03-20 21:45:00.259 FlickArrow[4449:92963] Unlimited access to network resources
+2015-03-20 21:45:00.264 FlickArrow[4449:92963] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 21:45:00.675 FlickArrow[4449:92963] [CDVTimer][admob] 0.207007ms
+2015-03-20 21:45:00.676 FlickArrow[4449:92963] [CDVTimer][TotalPluginStartup] 0.450015ms
+2015-03-20 21:45:00.777 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:45:01.402 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+2015-03-20 21:45:01.491 FlickArrow[4449:92963] THREAD WARNING: ['GameCenter'] took '46.077881' ms. Plugin should use a background thread.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:45:03.447 FlickArrow[4449:92963] createBanner
+2015-03-20 21:45:03.448 FlickArrow[4449:92963] createBanner
+2015-03-20 21:45:06.521 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:45:06.521 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:45:06.522 FlickArrow[4449:92963] statusbar offset:20.000000, overlap:0, ad position:8, x:0, y:0
+2015-03-20 21:45:06.522 FlickArrow[4449:92963] window, resize, 
+2015-03-20 21:45:37.245 FlickArrow[4449:92963] THREAD WARNING: ['GameCenter'] took '48.732910' ms. Plugin should use a background thread.
+2015-03-20 21:46:05.529 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:46:05.529 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:47:03.716 FlickArrow[4449:92963] THREAD WARNING: ['SocialMessage'] took '301.838867' ms. Plugin should use a background thread.
+2015-03-20 21:48:24.913 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:48:26.254 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:48:29.281 FlickArrow[4449:92963] THREAD WARNING: ['SocialMessage'] took '963.570801' ms. Plugin should use a background thread.
+2015-03-20 21:48:29.908 FlickArrow[4449:92963] createBanner
+2015-03-20 21:48:29.909 FlickArrow[4449:92963] createBanner
+2015-03-20 21:48:30.616 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:48:30.617 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:48:50.734 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:48:51.521 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:48:53.744 FlickArrow[4449:92963] createBanner
+2015-03-20 21:48:53.745 FlickArrow[4449:92963] createBanner
+2015-03-20 21:48:53.983 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:48:53.983 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:48:54.502 FlickArrow[4449:92963] THREAD WARNING: ['SocialMessage'] took '39.663086' ms. Plugin should use a background thread.
+2015-03-20 21:49:06.931 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:49:07.937 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:49:10.107 FlickArrow[4449:92963] createBanner
+2015-03-20 21:49:10.107 FlickArrow[4449:92963] createBanner
+2015-03-20 21:49:10.319 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:49:10.319 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:49:10.786 FlickArrow[4449:92963] THREAD WARNING: ['SocialMessage'] took '77.580811' ms. Plugin should use a background thread.
+2015-03-20 21:50:10.507 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:50:10.508 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:50:39.201 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:50:40.179 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+2015-03-20 21:50:40.473 FlickArrow[4449:92963] THREAD WARNING: ['GameCenter'] took '14.252930' ms. Plugin should use a background thread.
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:50:42.464 FlickArrow[4449:92963] createBanner
+2015-03-20 21:50:42.465 FlickArrow[4449:92963] createBanner
+2015-03-20 21:50:42.704 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:50:42.705 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:51:42.803 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:51:42.803 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:52:02.849 FlickArrow[4449:92963] Resetting plugins due to page load.
+2015-03-20 21:52:03.461 FlickArrow[4449:92963] Finished load of: file:///Users/uematsu.yuki/Library/Developer/CoreSimulator/Devices/8FAE7AF4-44A1-4AAB-95B8-1D62C377138C/data/Containers/Bundle/Application/38D9147A-85C3-4F0A-A08F-88E7F3754B57/FlickArrow.app/www/flick-arrow.html
+>>>> frameSizeChanged = 4096
+>>>> frameSizeChanged = 4096
+2015-03-20 21:52:05.577 FlickArrow[4449:92963] createBanner
+2015-03-20 21:52:05.577 FlickArrow[4449:92963] createBanner
+2015-03-20 21:52:05.727 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:52:05.727 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:52:10.752 FlickArrow[4449:92963] THREAD WARNING: ['SocialMessage'] took '490.617920' ms. Plugin should use a background thread.
+2015-03-20 21:53:41.149 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:53:41.150 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:54:41.256 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:54:41.257 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:55:41.341 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:55:41.342 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:56:41.442 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:56:41.443 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:57:41.555 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:57:41.556 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:58:41.647 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:58:41.647 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 21:59:41.758 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 21:59:41.759 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:00:41.845 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:00:41.846 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:01:41.976 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:01:41.976 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:02:42.070 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:02:42.071 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:03:42.154 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:03:42.155 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:04:42.247 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:04:42.248 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:05:44.548 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:05:44.549 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:06:44.632 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:06:44.632 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:07:44.730 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:07:44.730 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:08:44.869 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:08:44.869 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:09:44.956 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:09:44.957 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:10:45.065 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:10:45.066 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:11:45.175 FlickArrow[4449:92963] AdMob, onBannerFailedToReceive, {'error': '1', 'reason': 'Request Error: No ad to show.'}
+2015-03-20 22:11:45.175 FlickArrow[4449:92963] AdMob, onAdFailLoad, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdFailLoad','error':1,'reason':'Request Error: No ad to show.'}
+2015-03-20 22:12:45.369 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:12:45.370 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:13:45.471 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:13:45.471 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:14:45.760 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:14:45.761 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:15:45.687 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:15:45.688 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:16:45.857 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:16:45.857 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:17:45.948 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:17:45.949 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:18:46.049 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:18:46.050 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:19:46.193 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:19:46.193 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:20:46.249 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:20:46.250 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:21:46.381 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:21:46.381 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:22:46.471 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:22:46.472 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:23:46.573 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:23:46.574 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
+2015-03-20 22:24:46.750 FlickArrow[4449:92963] AdMob, onBannerReceive, 
+2015-03-20 22:24:46.751 FlickArrow[4449:92963] AdMob, onAdLoaded, {'adNetwork':'AdMob','adType':'banner','adEvent':'onAdLoaded'}
