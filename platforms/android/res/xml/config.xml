@@ -1,15 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="jp.phi.wrapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="jp.phi.FlickArrow" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>wrapp</name>
-    <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
     <feature name="AdMob">
         <param name="android-package" value="com.rjfun.cordova.admob.AdMobPlugin" />
         <param name="onload" value="true" />
@@ -17,4 +8,14 @@
     <feature name="SocialMessage">
         <param name="android-package" value="uk.co.ilee.socialmessage.SocialMessage" />
     </feature>
+    <name>FlickArrow</name>
+    <description>
+        A simple game.
+    </description>
+    <author email="phi1618jp@gmail.com" href="http://tmlife.net">
+        tmlib.js project
+    </author>
+    <content src="flick-arrow.html" />
+    <access origin="*" />
+    <preference name="ShowSplashScreen" value="false" />
 </widget>
