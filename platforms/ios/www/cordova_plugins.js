@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "gamecenter"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
+        "id": "org.apache.cordova.statusbar.statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -28,6 +35,7 @@ module.exports.metadata =
     "com.google.cordova.admob": "2.7.4",
     "uk.co.ilee.socialmessage": "0.2.6",
     "uk.co.ilee.gamecenter": "0.3.1",
+    "org.apache.cordova.statusbar": "0.1.10",
     "com.rjfun.cordova.extension": "1.0.6"
 }
 // BOTTOM OF METADATA

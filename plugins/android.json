@@ -43,6 +43,10 @@
                         {
                             "xml": "<feature name=\"SocialMessage\"><param name=\"android-package\" value=\"uk.co.ilee.socialmessage.SocialMessage\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -58,6 +62,9 @@
         },
         "uk.co.ilee.gamecenter": {
             "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "jp.phi.FlickArrow"
         }
     },
     "dependent_plugins": {

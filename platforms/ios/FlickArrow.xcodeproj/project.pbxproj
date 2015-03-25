@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -33,6 +32,7 @@
 		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		3E9922F778DB4AD6AD1B3EFC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0B1DB30AE4AA587869F80 /* EventKitUI.framework */; };
+		525BBF54EC8247B99367F0E1 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D61A254062744DAB993266F /* CDVStatusBar.m */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		656DBD5E112141E391CF1D0E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF16D6A53CF4B6983D0FB80 /* AudioToolbox.framework */; };
 		7226F1A7EEB240AB84BA5DE9 /* libCordovaGenericAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF8FD00859345C090DA0B5F /* libCordovaGenericAd.a */; };
@@ -120,6 +120,8 @@
 		5606D8ACA47440369E9254D2 /* SocialMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialMessage.m; path = uk.co.ilee.socialmessage/SocialMessage.m; sourceTree = "<group>"; };
 		58BB6579E57D46C0BFD849DF /* CDVAdMobPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAdMobPlugin.m; path = com.google.cordova.admob/CDVAdMobPlugin.m; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = FlickArrower.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6D61A254062744DAB993266F /* CDVStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = org.apache.cordova.statusbar/CDVStatusBar.m; sourceTree = "<group>"; };
+		77BB0BD252A3402C98E411AD /* CDVStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = org.apache.cordova.statusbar/CDVStatusBar.h; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -290,6 +292,8 @@
 				E7F1153D04A7411097D37586 /* SocialMessage.h */,
 				28611F934B61434C96BFF9F7 /* GameCenter.m */,
 				C38319E125994219BF7A39C2 /* GameCenter.h */,
+				6D61A254062744DAB993266F /* CDVStatusBar.m */,
+				77BB0BD252A3402C98E411AD /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = FlickArrow/Plugins;
@@ -484,6 +488,7 @@
 				F5AD920888564CDDB50DEE1F /* AdMobMediation.m in Sources */,
 				AAAF6ACD688A46BAAC5245BE /* SocialMessage.m in Sources */,
 				21D47A97563F4C21B1B45228 /* GameCenter.m in Sources */,
+				525BBF54EC8247B99367F0E1 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

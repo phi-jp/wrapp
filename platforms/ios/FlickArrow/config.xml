@@ -24,6 +24,12 @@
     <feature name="GameCenter">
         <param name="ios-package" value="GameCenter" />
     </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <name>FlickArrow</name>
     <description>
         A simple game.
