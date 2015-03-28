@@ -1,0 +1,26 @@
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes.dex : \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobMediation.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$1.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$BannerListener.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin$InterstitialListener.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/admob/AdMobPlugin.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/ext/CordovaPluginExt.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/com/rjfun/cordova/ext/PluginAdapterDelegate.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/BuildConfig.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/MainActivity.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R$attr.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R$drawable.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R$integer.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R$string.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R$xml.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/FlickArrow/R.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/jp/phi/wrapp/MainActivity.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$1.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$3.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/uk/co/ilee/socialmessage/SocialMessage$1.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/classes/uk/co/ilee/socialmessage/SocialMessage.class \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/dexedLibs/classes-6afeb2ef32aa90c8c010af0aa16ceb9d.jar \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/dexedLibs/google-play-services-711dbacf0aeca0512286dd64800a590f.jar \
+/Users/uematsu.yuki/Box Sync/01_active/wrapp/platforms/android/ant-build/dexedLibs/cordova-generic-ad-8c386d56a36cb88337af82f1103124c0.jar \
