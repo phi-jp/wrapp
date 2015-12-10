@@ -8,8 +8,25 @@ wrapp
 $ npm install -g cordova
 $ npm install -g cordova-icon
 $ npm install -g cordova-splash
+$ npm install -g ios-sim
 ```
 
+## plugins
+
+```
+        "com.google.cordova.admob": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "uk.co.ilee.socialmessage": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "uk.co.ilee.gamecenter": {
+            "PACKAGE_NAME": "jp.phi.wrapp"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "jp.phi.FlickArrow"
+        }
+```
 
 ## setup
 
