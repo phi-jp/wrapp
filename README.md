@@ -6,9 +6,11 @@ wrapp
 
 ```
 $ npm install -g cordova
+$ npm install -g ios-sim
+
+$ brew install ImageMagick
 $ npm install -g cordova-icon
 $ npm install -g cordova-splash
-$ npm install -g ios-sim
 ```
 
 ## plugins
