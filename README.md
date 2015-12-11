@@ -16,18 +16,16 @@ $ npm install -g cordova-splash
 ## plugins
 
 ```
-        "com.google.cordova.admob": {
-            "PACKAGE_NAME": "jp.phi.wrapp"
-        },
-        "uk.co.ilee.socialmessage": {
-            "PACKAGE_NAME": "jp.phi.wrapp"
-        },
-        "uk.co.ilee.gamecenter": {
-            "PACKAGE_NAME": "jp.phi.wrapp"
-        },
-        "org.apache.cordova.statusbar": {
-            "PACKAGE_NAME": "jp.phi.FlickArrow"
-        }
+# ステータスバー消す
+$ cordova plugin add cordova-plugin-statusbar
+# 広告
+$ cordova plugin add cordova-plugin-admobpro
+# ゲームセンター
+$ cordova plugin add cordova-plugin-game-center
+
+"uk.co.ilee.socialmessage": {
+    "PACKAGE_NAME": "jp.phi.wrapp"
+},
 ```
 
 ## setup
@@ -46,4 +44,11 @@ $ cordova build ios
 
 ```
 $ cordova emulate ios --target='iPhone-5s'
+```
+
+## icon & splash
+
+```
+$ cordova-icon icon.png
+$ cordova-splash splash.png
 ```
