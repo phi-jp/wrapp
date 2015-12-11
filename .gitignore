@@ -1,2 +1,5 @@
 plugins
 platforms
+
+www/*
+!.gitkeep
