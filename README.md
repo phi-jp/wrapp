@@ -18,10 +18,16 @@ $ npm install -g cordova-splash
 ```
 # ステータスバー消す
 $ cordova plugin add cordova-plugin-statusbar
-# 広告
-$ cordova plugin add cordova-plugin-admobpro
+# 広告(Nend)
+$ cordova plugin add https://github.com/TakayukiSakai/cordova-plugin-nend.git
 # ゲームセンター
 $ cordova plugin add cordova-plugin-game-center
+
+
+// なぜかエラー出る
+// # 広告
+// $ cordova plugin add cordova-plugin-admobpro
+
 
 "uk.co.ilee.socialmessage": {
     "PACKAGE_NAME": "jp.phi.wrapp"
