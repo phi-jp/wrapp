@@ -26,6 +26,8 @@ $ cordova plugin add https://github.com/TakayukiSakai/cordova-plugin-nend.git
 $ cordova plugin add cordova-plugin-game-center
 # レビュー
 $ cordova plugin add cordova-launch-review
+# ソーシャルメッセージ
+$ cordova plugin add cordova-plugin-social-message
 
 // なぜかエラー出る
 // # 広告
