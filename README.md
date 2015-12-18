@@ -13,6 +13,13 @@ $ npm install -g cordova-icon
 $ npm install -g cordova-splash
 ```
 
+## setup
+
+```
+$ cordova platform add ios
+$ cordova platform add android
+```
+
 ## plugins
 
 ```
@@ -28,6 +35,9 @@ $ cordova plugin add cordova-plugin-game-center
 $ cordova plugin add cordova-launch-review
 # ソーシャルメッセージ
 $ cordova plugin add cordova-plugin-social-message
+# crosswalk
+$ cordova plugin add cordova-plugin-crosswalk-webview
+
 
 // なぜかエラー出る
 // # 広告
@@ -37,12 +47,6 @@ $ cordova plugin add cordova-plugin-social-message
 "uk.co.ilee.socialmessage": {
     "PACKAGE_NAME": "jp.phi.wrapp"
 },
-```
-
-## setup
-
-```
-$ cordova platform add ios
 ```
 
 ## build
