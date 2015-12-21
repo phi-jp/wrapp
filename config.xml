@@ -10,6 +10,7 @@
     <content src="http://localhost:8080/github/flick-arrow/?platform=cordova" />
     <content src="http://phi-jp.github.io/flick-arrow/?platform=cordova" />
     
+    <content src="http://phi-jp.github.io/flick-arrow/?platform=android" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-navigation href="*" />
