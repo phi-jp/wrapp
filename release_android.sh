@@ -18,6 +18,7 @@ jarsigner -verbose -keystore .keystore ${apk_x86} wrapp
 jarsigner -verbose -keystore .keystore ${apk_armv7} wrapp
 
 # 最適化
+rm -rf release
 mkdir release
 ${zipalign} -v 4 ${apk_x86} release/x86.apk
-${zipalign} -v 4 ${apk_x86} release/armv7.apk
+${zipalign} -v 4 ${apk_armv7} release/armv7.apk

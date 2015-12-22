@@ -26,6 +26,8 @@ $ cordova platform add android
 ```
 # デバイス
 $ cordova plugin add cordova-plugin-device
+# アプリ情報取得
+$ cordova plugin add cordova-plugin-appinfo
 # ステータスバー消す
 $ cordova plugin add cordova-plugin-statusbar
 # 広告(Nend)
@@ -38,11 +40,8 @@ $ cordova plugin add cordova-launch-review
 $ cordova plugin add cordova-plugin-social-message
 # crosswalk
 $ cordova plugin add cordova-plugin-crosswalk-webview
-
-
-// なぜかエラー出る
-// # 広告
-// $ cordova plugin add cordova-plugin-admobpro
+# 広告
+$ cordova plugin add cordova-plugin-admobpro
 
 ```
 
