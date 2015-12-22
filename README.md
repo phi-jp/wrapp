@@ -7,6 +7,7 @@ wrapp
 ```
 $ npm install -g cordova
 $ npm install -g ios-sim
+$ npm install -g ios-deploy
 
 $ brew install ImageMagick
 $ npm install -g cordova-icon
@@ -43,10 +44,6 @@ $ cordova plugin add cordova-plugin-crosswalk-webview
 // # 広告
 // $ cordova plugin add cordova-plugin-admobpro
 
-
-"uk.co.ilee.socialmessage": {
-    "PACKAGE_NAME": "jp.phi.wrapp"
-},
 ```
 
 ## build
