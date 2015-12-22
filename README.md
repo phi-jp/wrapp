@@ -64,3 +64,19 @@ $ cordova emulate ios --target='iPhone-5s'
 $ cordova-icon icon.png
 $ cordova-splash splash.png
 ```
+
+
+## memo
+
+### ios
+
+- id ... jp.phi.FlickArrow
+- version ... 2.0.1
+- content ... http://phi-jp.github.io/flick-arrow/?platform=ios
+
+### ios
+
+- id ... jp.phi.FlickArrow_
+- version ... 2.0.1
+- content ... http://phi-jp.github.io/flick-arrow/?platform=ios
+
